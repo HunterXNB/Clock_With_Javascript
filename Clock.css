@@ -25,7 +25,6 @@ body {
   position: absolute;
   bottom: 50%;
   right: 50%;
-  height: 115px;
   transform-origin: right bottom;
   border-right: 2px solid red;
   transition: all 0.05s;
@@ -34,4 +33,12 @@ body {
   -ms-transition: all 0.05s;
   -o-transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.hours{
+height:70px;
+}
+.minutes{
+height:90px;}
+.seconds{
+height:110px;
 }
